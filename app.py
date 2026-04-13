@@ -1,12 +1,13 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
+import flask_cors
 import sqlite3
 import os
 
 app = Flask(__name__)
-CORS(app)
+flask_cors.CORS(app)
 
-DB_PATH = '/home/claude/bears.db'
+DB_PATH = os.path.join(os.path.dirname(__file__), 'bears.db')
+
 
 def get_db():
     conn = sqlite3.connect(DB_PATH)

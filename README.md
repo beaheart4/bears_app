@@ -1,4 +1,4 @@
-# 🐻 Chicago Bears 2024 Stats Dashboard
+# Chicago Bears 2024 Stats Dashboard
 
 A full-stack web application for exploring Chicago Bears 2024 season statistics — built with a Python/Flask REST API backend and a vanilla HTML/CSS/JS frontend. No frontend framework or build step required.
 
